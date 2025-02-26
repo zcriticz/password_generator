@@ -116,3 +116,17 @@ body {
   visibility: visible;
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .input-container {
+    max-width: 300px;
+  }
+
+  .password-container {
+    max-width: 300px;
+  }
+
+  #logo {
+    max-width: 300px;
+  }
+}
