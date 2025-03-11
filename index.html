@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>
+      Password Generator | protect your passwords with our automatic character
+      generator!
+    </title>
+  </head>
+  <body>
+    <img id="logo" src="assets/images/logo.png" alt="Logo" />
+    <main class="input-container">
+      <span>Size <span id="input-value"></span> characters</span>
+      <input
+        id="slider"
+        class="slider"
+        type="range"
+        min="8"
+        max="25"
+        value="15"
+      />
+      <button onclick="generatePassword()" id="btn" class="btn-cta">
+        Generate Password
+      </button>
+    </main>
+
+    <div
+      onclick="copyPassword()"
+      id="password-container"
+      class="password-container hide"
+    >
+      <span id="title">Your generated password was</span>
+      <span id="password" class="password">123566</span>
+      <span id="tooltip">Click to copy your password &#x1F4CB;</span>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
