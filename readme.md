@@ -1,6 +1,6 @@
 <div align="center">
 
-![Project Logo](https://i.imgur.com/FWEcJlK.png)
+![Project Logo](https://imgur.com/B5FT4pq.png)
 
 </div> <br/>
 
