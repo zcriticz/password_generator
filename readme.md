@@ -1,4 +1,4 @@
-![Project Logo](https://i.imgur.com/FWEcJlK.png)
+![Project Logo](https://i.imgur.com/B5FT4pq.png)
 
 ## About
 
@@ -28,6 +28,7 @@ You will need a web browser to run this application.
    ```sh
    git clone https://github.com/zcriticz/password_generator.git
    ```
+2. Open the `index.html` file in your web browser.
 
 ## Usage
 
@@ -42,7 +43,3 @@ You will need a web browser to run this application.
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/license/mit)
-
-## 🌐 Test Yourself
-
-[Click here and check my application](https://passwrdgenerator.vercel.app)
